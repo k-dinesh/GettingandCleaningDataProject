@@ -2,7 +2,7 @@ CODEBOOK for Getting and Cleaning Data Project
 
 The tidy data set file "tidydata.csv" contains below 68 variables in the order
 
-<B>Subject<B>
+<B>Subject</B>
 	It is a factor variable and its values range from '01' to '30'. Each value denotes one subject code. The subject variable has been extracted from the below two raw data files.
 "subject_test.txt"
 "subject_train.txt"
