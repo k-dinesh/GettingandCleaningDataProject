@@ -24,13 +24,13 @@ The values from the raw files "y_test.txt" and "y_train.txt" has been extracted 
 <B>
 tbodyacc-mean()-x          
 tbodyacc-mean()-y 
-tbodyacc-mean()-z 
+tbodyacc-mean()-z 	
 tbodyacc-std()-x      
 tbodyacc-std()-y      
 tbodyacc-std()-z      
-tgravityacc-mean()-x
-tgravityacc-mean()-y
-tgravityacc-mean()-z
+tgravityacc-mean()-x	
+tgravityacc-mean()-y	
+tgravityacc-mean()-z	
 tgravityacc-std()-x     
 tgravityacc-std()-y     
 tgravityacc-std()-z     
