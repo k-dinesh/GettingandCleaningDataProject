@@ -1,6 +1,6 @@
 CODEBOOK for Getting and Cleaning Data Project
 
-The tidy data set file "tidydata.csv" contains below 68 variables in the order
+The tidy data set file "tidydata.txt" contains below 68 variables in the order
 
 <B>Subject</B>
 
