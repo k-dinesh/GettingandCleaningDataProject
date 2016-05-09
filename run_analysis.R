@@ -89,7 +89,7 @@ tidydata <- meanstd %>%
 
 #-------------------------------------------------------------------------------
 
-#6. OUTPUT THE TIDY DATA SET INTO A CSV FILE
-write.csv(tidydata,"tidydata.csv")
+#6. OUTPUT THE TIDY DATA SET INTO A TXT FILE
+write.table(tidydata,file = "tidydata.txt",row.names = FALSE)
 
 
