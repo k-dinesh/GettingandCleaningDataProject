@@ -3,20 +3,23 @@ CODEBOOK for Getting and Cleaning Data Project
 The tidy data set file "tidydata.csv" contains below 68 variables in the order
 
 <B>Subject</B>
-	It is a factor variable and its values range from '01' to '30'. Each value denotes one subject code. The subject variable has been extracted from the below two raw data files.
+
+It is a factor variable and its values range from '01' to '30'. Each value denotes one subject code. The subject variable has been extracted from the below two raw data files.
 "subject_test.txt"
 "subject_train.txt"
+
 The one digit subject values from "1" to "9" has been converted to two digit values by prefixing "0".
 	
-Activity
-	It is a factor variable with the following values to denote the activity.
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
-	The values from the raw files "y_test.txt" and "y_train.txt" has been extracted and transformed into activity variable based on the mapping provided in the raw file "activity_labels.txt"
+<B>Activity</B>
+
+It is a factor variable with the following values to denote the activity.
+	WALKING
+	WALKING_UPSTAIRS
+	WALKING_DOWNSTAIRS
+	SITTING
+	STANDING
+	LAYING
+The values from the raw files "y_test.txt" and "y_train.txt" has been extracted and transformed into activity variable based on the mapping provided in the raw file "activity_labels.txt"
 
 tbodyacc-mean()-x          
 tbodyacc-mean()-y 
