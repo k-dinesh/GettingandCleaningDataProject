@@ -2,12 +2,14 @@
 Coursera Course Getting and Cleaning Data
 
 Raw Data
+--------
 
 The raw data for the project is available in the zip file at the below location. Information regarding raw data is available in the "README.txt" file present in the zip file.
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 run_analysis.R
+--------------
 
 This script is used to clean the raw data and generate a tidy output for further analysis. It does the following steps
 
@@ -20,6 +22,7 @@ This script is used to clean the raw data and generate a tidy output for further
 7.	Writes the tidy data to "tidydata.csv" file in the working directory location.
 
 tidydata.csv
+------------
 
 This is the final output of the "run_analysis.R" script and the file "CodeBook.md" contains information about the content of the tidy data set.
 
