@@ -21,6 +21,7 @@ It is a factor variable with the following values to denote the activity.
 	LAYING
 The values from the raw files "y_test.txt" and "y_train.txt" has been extracted and transformed into activity variable based on the mapping provided in the raw file "activity_labels.txt"
 
+<B>
 tbodyacc-mean()-x          
 tbodyacc-mean()-y 
 tbodyacc-mean()-z 
@@ -87,5 +88,6 @@ fbodybodygyromag-mean()
 fbodybodygyromag-std()     
 fbodybodygyrojerkmag-mean()
 fbodybodygyrojerkmag-std() 
+</B>
 
 All the above variables hold mean value of the corresponding variables from "X_test.txt" and "X_train.txt" files. It contains average of each variable for each activity for each subject. They contain both negative and positive numerical values with eight decimal places.
