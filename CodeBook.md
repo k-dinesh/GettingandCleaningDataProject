@@ -91,4 +91,4 @@ fbodybodygyrojerkmag-std()
 
 </B>
 
-All the above variables hold mean value of the corresponding variables from "X_test.txt" and "X_train.txt" files. It contains average of each variable for each activity for each subject. They contain both negative and positive numerical values with eight decimal places.
+All the above variables hold mean value of the corresponding variables from "X_test.txt" and "X_train.txt" files. It contains average of each variable for each activity for each subject. They contain both negative and positive numerical values.
