@@ -8,8 +8,7 @@ library(dplyr)
 #-------------------------------------------------------------------------------
 
 #2. DOWNLOAD AND UNZIP THE RAW DATA FILE INTO THE WORKING DIRECTORY
-download.file(url = "https://d396qusza40orc.cloudfront.net/
-              getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
+download.file(url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
               destfile = "projectfiles.zip")
 unzip("projectfiles.zip",exdir = ".")
 
